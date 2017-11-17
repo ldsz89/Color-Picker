@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P4t-JC-oJD">
-                                <rect key="frame" x="-16" y="451" width="375" height="216"/>
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Yt8-yq-R1e"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="6g5-hC-UxR"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpo-Pz-8gJ">
-                                <rect key="frame" x="190" y="340" width="42" height="21"/>
+                                <rect key="frame" x="240" y="394" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,11 +33,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="P4t-JC-oJD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-16" id="6gS-IY-nbL"/>
-                            <constraint firstItem="jpo-Pz-8gJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="R6a-eM-y0f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P4t-JC-oJD" secondAttribute="trailing" constant="16" id="Rfc-ks-YWb"/>
-                            <constraint firstItem="P4t-JC-oJD" firstAttribute="top" secondItem="jpo-Pz-8gJ" secondAttribute="bottom" constant="40" id="YF7-jC-A3L"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P4t-JC-oJD" secondAttribute="bottom" id="cKV-Ev-59N"/>
+                            <constraint firstItem="jpo-Pz-8gJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hzc-uT-S7U"/>
+                            <constraint firstItem="P4t-JC-oJD" firstAttribute="top" secondItem="jpo-Pz-8gJ" secondAttribute="bottom" constant="40" id="aJB-3o-G7Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P4t-JC-oJD" secondAttribute="trailing" id="muH-1t-f9o"/>
+                            <constraint firstItem="P4t-JC-oJD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vON-GZ-usp"/>
+                            <constraint firstItem="P4t-JC-oJD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ztO-U6-SkX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
