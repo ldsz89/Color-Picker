@@ -14,6 +14,7 @@
 		422759991FBE60280064F5B9 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422759981FBE60280064F5B9 /* Color_PickerTests.swift */; };
 		422759A41FBE60280064F5B9 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422759A31FBE60280064F5B9 /* Color_PickerUITests.swift */; };
 		422759B21FBE60B90064F5B9 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422759B11FBE60B90064F5B9 /* ColorPickerViewController.swift */; };
+		422759B61FBE616C0064F5B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422759B51FBE616C0064F5B9 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		422759A31FBE60280064F5B9 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		422759A51FBE60280064F5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422759B11FBE60B90064F5B9 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		422759B51FBE616C0064F5B9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4227598C1FBE60280064F5B9 /* LaunchScreen.storyboard */,
 				4227598F1FBE60280064F5B9 /* Info.plist */,
 				422759B11FBE60B90064F5B9 /* ColorPickerViewController.swift */,
+				422759B51FBE616C0064F5B9 /* Color.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				422759B21FBE60B90064F5B9 /* ColorPickerViewController.swift in Sources */,
 				422759841FBE60280064F5B9 /* AppDelegate.swift in Sources */,
+				422759B61FBE616C0064F5B9 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

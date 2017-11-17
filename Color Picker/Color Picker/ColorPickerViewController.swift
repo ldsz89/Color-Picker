@@ -9,7 +9,18 @@
 import UIKit
 
 class ColorPickerViewController: UIViewController {
-
+    
+    @IBOutlet weak var colorLabel: UILabel!
+    @IBOutlet weak var colorPickerView: UIPickerView!
+    
+    var colors = [Color(name: "Red", uiColor: UIColor.red),
+                  Color(name: "Orange", uiColor: UIColor.orange),
+                  Color(name: "Yellow", uiColor: UIColor.yellow),
+                  Color(name: "Green", uiColor: UIColor.green),
+                  Color(name: "Blue", uiColor: UIColor.blue),
+                  Color(name: "Purple", uiColor: UIColor.purple),
+                  Color(name: "Brown", uiColor: UIColor.brown)]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
