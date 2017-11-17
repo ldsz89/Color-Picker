@@ -44,6 +44,7 @@
                     <connections>
                         <outlet property="colorLabel" destination="jpo-Pz-8gJ" id="MdL-4N-G79"/>
                         <outlet property="colorPickerView" destination="P4t-JC-oJD" id="TKE-0c-pYv"/>
+                        <outlet property="colorView" destination="8bC-Xf-vdC" id="hZc-7Z-u13"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,6 +12,7 @@ class ColorPickerViewController: UIViewController, UIPickerViewDataSource, UIPic
     
     @IBOutlet weak var colorLabel: UILabel!
     @IBOutlet weak var colorPickerView: UIPickerView!
+    @IBOutlet var colorView: UIView!
     
     var colors = [Color(name: "Red", uiColor: UIColor.red),
                   Color(name: "Orange", uiColor: UIColor.orange),
@@ -35,12 +36,14 @@ class ColorPickerViewController: UIViewController, UIPickerViewDataSource, UIPic
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         colorLabel.text = colors[row].name
+        colorView.backgroundColor = colors[row].uiColor
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         colorLabel.text = colors[0].name
+        colorView.backgroundColor = colors[0].uiColor
 
         // Do any additional setup after loading the view.
     }
